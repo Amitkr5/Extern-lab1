@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        How to create drag and drop features for images reorder using HTML CSS and jQueryUI?
+    </title>
+</head>
+
+<body>
+    <h1 style="color:green">Amit kumar</h1>
+
+    <b>Drag and drop Extern Lab</b>
+
+    <div class="height"></div><br>
+
+    <div id="imageListId">
+        <div id="imageNo1" class="listitemClass">
+            <img src="idata:image/jpeg;base64,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"
+                alt="">
+        </div>
+
+        <div id="imageNo2" class="listitemClass">
+            <img src="images/geeksimage2.png" alt="">
+        </div>
+
+        <div id="imageNo3" class="listitemClass">
+            <img src="images/geeksimage3.png" alt="">
+        </div>
+
+        <div id="imageNo4" class="listitemClass">
+            <img src="images/geeksimage4.png" alt="">
+        </div>
+
+        <div id="imageNo5" class="listitemClass">
+            <img src="images/geeksimage5.png" alt="">
+        </div>
+
+        <div id="imageNo6" class="listitemClass">
+            <img src="images/geeksimage6.png" alt="">
+        </div>
+    </div>
+
+    <div id="outputDiv">
+        <b>Output of ID's of images : </b>
+        <input id="outputvalues" type="text" value="" />
+    </div>
+</body>
+
+</html>
